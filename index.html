@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações de Anúncios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f1f1f1;
+            background-image: url('https://i.imgur.com/EzlQF6I.png');
+            background-position: center center;
+            background-repeat: repeat;
+            background-attachment: scroll;
+            background-blend-mode: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding-bottom: 100px; 
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #333;
+            font-weight: 600;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tema: Automatização nas aulas dos conselheiros</h2>
+        <p>Houve mudanças no método de aplicação das aulas dos conselheiros, antes de iniciar a aula é necessário abrir o iForm de acordo com o script na qual for aplicar a aula, anotando de início o nickname do(s) aluno(s).</p>
+
+        <h2>Tema: Automatização nas aulas dos graduadores</h2>
+        <p>Foi implementado um novo sistema nas graduações básicas e avançadas, o graduador precisa abrir o sistema antes de iniciar a graduação pra contabilizar o horário inicial da aula. O sistema posta na planilha e também no fórum (caso o militar seja aprovado, caso não for, ele posta automaticamente somente na planilha).</p>
+
+        <h2>Tema: Auditoria Interna</h2>
+        <p>Vai ocorrer a auditoria interna da Ordem Militar, com o intuito de captar informações geradas pelos militares e que servirão de insumos para planejar estratégias de melhoria para a Ordem Militar. Com isto, os militares que responderem estarão participando do sorteio de HC's. O link: <a href="https://forms.gle/Ho3warkfLcFYnmvf9" target="_blank">https://forms.gle/Ho3warkfLcFYnmvf9</a>. Coloque essa imagem aqui no grupo para divulgar:</p>
+        <div class="image-container">
+            <img src="https://i.imgur.com/SHf9kzk.jpeg" alt="Imagem de divulgação do sorteio de HC's">
+        </div>
+    </div>
+</body>
+</html>
